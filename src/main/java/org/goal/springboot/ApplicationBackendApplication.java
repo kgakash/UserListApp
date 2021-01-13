@@ -20,8 +20,9 @@ public class ApplicationBackendApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		this.userRepository.save(new User(1, "Akash", "Gopinath", "akash@goal.com"));
-		this.userRepository.save(new User(2, "Nitheesh", "Gopinath", "nitheesh@goal.com"));
+		this.userRepository.save(new User(1, "Paul", "Antony", "paul@spring.com"));
+		this.userRepository.save(new User(2, "Harry", "Tolety", "harry@spring.com"));
+		this.userRepository.save(new User(3, "James", "Grey", "james@spring.com"));
 		
 	}
 
